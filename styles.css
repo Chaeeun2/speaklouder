@@ -1,0 +1,36 @@
+html {
+    background: black;
+    color: white;
+}
+
+.words {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+p {
+    font-family: 'Pretendard';
+    background: red;
+    display: inline-block;
+    margin: 0;
+    padding: 0px 3px 3px 3px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background: white;
+    transition: all 1s;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 100px;
+    transition: all 1s;
+}
