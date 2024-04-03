@@ -79,16 +79,18 @@ recognition.onresult = function (e) {
         words.lastElementChild.style.width = _width + 50 + 'px';
     } else if (texts == '짧게') {
         var lastchild = words.lastElementChild;
-        var _width = lastchild.offsetWidth;
+        var _height = lastchild.offsetHeight;
         words.lastElementChild.style.height = _height + 50 + 'px';
     } else if (texts == '크게') {
         var lastchild = words.lastElementChild;
         var _width = lastchild.offsetWidth;
+        var _height = lastchild.offsetHeight;
         words.lastElementChild.style.height = _height + 50 + 'px';
         words.lastElementChild.style.width = _width + 50 + 'px';
     } else if (texts == '작게') {
         var lastchild = words.lastElementChild;
         var _width = lastchild.offsetWidth;
+        var _height = lastchild.offsetHeight;
         words.lastElementChild.style.height = _height - 50 + 'px';
         words.lastElementChild.style.width = _width - 50 + 'px';
     } else if (texts == '노랑') {
