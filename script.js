@@ -91,6 +91,18 @@ recognition.onresult = function (e) {
         var _width = lastchild.offsetWidth;
         words.lastElementChild.style.height = _height - 50 + 'px';
         words.lastElementChild.style.width = _width - 50 + 'px';
+    } else if (texts == '노랑') {
+        var lastchild = words.lastElementChild;
+        var _width = lastchild.offsetWidth;
+        words.lastElementChild.style.background = 'yellow';
+    } else if (texts == '빨강') {
+        var lastchild = words.lastElementChild;
+        var _width = lastchild.offsetWidth;
+        words.lastElementChild.style.background = 'red';
+    } else if (texts == '파랑') {
+        var lastchild = words.lastElementChild;
+        var _width = lastchild.offsetWidth;
+        words.lastElementChild.style.background = 'blue';
     }
 
     else {
